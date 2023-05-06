@@ -35,7 +35,7 @@ body{
     background-color:#d2691e;
 }
 
-.background-video .video{
+.background-video{
     background-color: #262b35;
     position: absolute;
     z-index: -1;
@@ -44,4 +44,12 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: center;
+}
+
+.background-video .video{
+    height: 100vh;
+}
+
+.background-video::after{
+    
 }
